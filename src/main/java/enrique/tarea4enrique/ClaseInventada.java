@@ -13,4 +13,15 @@ public class ClaseInventada {
     int dia;
     int mes;
     int año;
+
+    public ClaseInventada(int dia, int mes, int año) {
+        this.dia = dia;
+        this.mes = mes;
+        this.año = año;
+    }
+
+    public ClaseInventada() {
+    }
+    
+    
 }
