@@ -46,6 +46,11 @@ public class ClaseInventada {
     public void setAño(int año) {
         this.año = año;
     }
+
+    @Override
+    public String toString() {
+        return "ClaseInventada{" + "dia=" + dia + ", mes=" + mes + ", a\u00f1o=" + año + '}';
+    }
     
     
 }
